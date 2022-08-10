@@ -1,0 +1,448 @@
+.list-group-item._active {
+    color: #4880FF!important;
+}
+
+.under_menu._active a li {
+    margin: 0 0 5px 8px;
+    text-align: start;
+}
+.center {
+    padding: 30px;
+}
+
+.course_card {
+    background: #FFFFFF;
+    border-radius: 14px;
+    max-width: 1137px;
+}
+
+.course_card .title {
+    padding: 32px 0 0 24px;
+}
+
+.course_table {
+    margin: 16px 24px 32px 24px;
+    font-size: 12px;
+    overflow: auto;
+}
+
+.course_table  .progress_bar .grey:hover {
+    box-shadow: 0 0 0 2px #c2c2c2;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.course_table  .progress_bar .blue:hover {
+    box-shadow: 0 0 0 2px #82a6f9;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.table_title {
+    padding: 15px 4px 15px 14px;
+    display: grid;
+    width: 1089px;
+    grid-template-columns: 115px 52px 204px 188px 196px 58px 58px 58px 58px;
+    background: #F1F4F9;
+    border-radius: 12px;
+}
+
+.table_row {
+    padding: 15px 4px 15px 14px;
+    display: grid;
+    grid-template-columns: 115px 52px 204px 188px 196px 58px 58px 58px 58px;
+    align-items: center;
+}
+
+
+.center_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.center_card {
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 569px;
+    overflow: auto;
+}
+
+.center_card .center_title {
+    padding: 32px 0 0 24px;
+}
+
+.sales_table {
+    margin: 16px 24px 32px 24px;
+    font-size: 12px;
+    width: 521px;
+}
+
+.sales_title {
+    padding: 15px 4px 15px 14px;
+    display: grid;
+    grid-template-columns: 115px 160px 82px 96px;
+    background: #F1F4F9;
+    border-radius: 14px;
+
+}
+
+.sales_row {
+    padding: 16px 4px 15px 15px;
+    display: grid;
+    grid-template-columns: 115px 160px 82px 96px;
+}
+
+.lessons_table {
+    margin: 16px 24px 32px 24px;
+    font-size: 12px;
+    width: 521px;
+    overflow: auto;
+}
+
+.lessons_title {
+    padding: 15px 4px 15px 14px;
+    display: grid;
+    grid-template-columns: 115px 52px 190px 50px;
+    background: #F1F4F9;
+    border-radius: 14px;
+
+}
+
+.lessons_row {
+    padding: 16px 4px 15px 15px;
+    display: grid;
+    grid-template-columns: 115px 52px 190px 50px;
+}
+
+.finance_card {
+    background: #FFFFFF;
+    border-radius: 14px;
+    max-width: 1137px;
+    margin-top: 20px;
+    /* overflow-x: scroll; */
+}
+
+.finance {
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 317px;
+    overflow-x: auto;
+}
+
+
+.finance_card .finance_card-title {
+    padding: 32px 0 0 24px;
+}
+
+.finance_table {
+    margin: 16px 24px 32px 24px;
+    font-size: 12px;
+    width: 479px;
+    /* height: 202px; */
+}
+
+.finance_title {
+    padding: 15px 4px 15px 14px;
+    width: 479px;
+    background: #F1F4F9;
+    border-radius: 14px;
+    display: grid;
+    grid-template-columns: 115px 52px 160px 84px;
+}
+
+.finance_row {
+    padding: 16px 4px 15px 15px;
+    display: grid;
+    grid-template-columns: 115px 52px 160px 84px;
+}
+
+.chart-container {
+    position: relative; 
+    /* height:800px; */
+    width:500px
+}
+
+.head_mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 12px 20px 12px;
+    display: none;
+    padding-top: 12px;
+    /* font-size: 18px; */
+}
+
+.head_mobile_end {
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.mobile_menu {
+    display: none;
+}
+
+.pagination_mobile {
+    display: none;
+}
+
+#mobile_close {
+    display: none;
+}
+
+.background {
+    display: none;
+}
+
+span.payment,
+.request, 
+.budget,
+.plan  {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-right: 10px;
+}
+
+.title_text_center {
+    text-align: center;
+}
+
+.progress_bar {
+    position: relative;
+    border-radius: 30px;
+    width: 160px;
+    height: 24px;
+    box-shadow: inset 0 0 0 1px #d5d5d5;
+    color: #111;
+    font-size: 10px;
+}
+
+.progress_bar a {
+    text-decoration: none;
+
+}
+
+.progress_bar .grey {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 80%;
+    z-index: 1;
+    background: #E0E0E0;
+    border-radius: 30px;
+    color: #404040;
+    line-height: 22px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 8px;
+}
+
+.progress_bar .blue {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 20%;
+    z-index: 2;
+    background: #4880FF;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 8px;
+    
+}
+
+.navigation_mobile {
+    display: none;
+}
+
+.center h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .center {
+        padding: 15px;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+
+
+    
+}
+    
+
+@media (max-width: 500px) {
+
+    .navbar.navbar-expand-lg.navbar-light {
+        display: none;
+    }
+
+    .center {
+        padding: 12px;
+    }
+
+    .course_table {
+        margin-bottom: 8px;
+    }
+
+    .center_cards {
+        grid-template: 8px;
+    }
+
+    .finance_card {
+        margin-top: 8px;
+    }
+
+    
+    .navigation_mobile {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .nav-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-mobile li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head_mobile {
+        display: flex;
+    }
+
+    .mobile_menu.non-active {
+        display: none;
+    }
+
+
+    .mobile_menu  {
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between; */
+        display: grid;
+        justify-items: center;
+        grid-auto-rows: max-content max-content auto;
+        height: 100%;
+        width: 65%;
+        min-height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        overflow: auto;
+        z-index: 4;
+        visibility: visible;
+        padding-bottom: 20px;
+        transition: 0.5s;
+    }
+
+    .mobile_menu  .mobile_logo img {
+        margin: 30px 0 45px 0;
+    }
+
+    .mobile_sides {
+        width: 100%;
+        /* padding-left: 40px; */
+    }
+
+    .mobile_sides ul {
+       padding-left: 40px;
+    }
+
+    .mobile_sides ul a {
+       text-decoration: none;
+    }
+
+    .mobile_sides ul a:hover {
+       color: (--blue);
+    }
+
+    .mobile_sides ul a li {
+        margin-bottom: 28px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        width: 100%;
+        list-style: none;
+        text-decoration: none;
+        color: #000;
+    } 
+
+    .mobile_profile {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        align-self: end;
+    }
+
+    .mobile_profile_text{
+        display: block;
+    }
+
+    .mobile_profile_text span {
+        font-size: 12px;
+    }
+
+    .mobile_profile_text h6{
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .close_button.non-active {
+        display: none;
+    }
+
+    .close_button {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 26px;
+        left: 24%;
+        z-index: 1000;
+        width: 50px;
+        text-align: center;
+    }
+
+    .background.non-active {
+        display: none;
+    }
+
+    .background {
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgb(121, 121, 121);
+        overflow: hidden;
+        display: inline;
+        z-index: 2;
+    }
+
+    #mobile_open {
+        margin-top: 5px;
+    }
+
+}
